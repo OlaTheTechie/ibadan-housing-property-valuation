@@ -1,0 +1,139 @@
+{
+  "generation_timestamp": "2025-11-01T09:40:29.403046",
+  "random_seed": 42,
+  "market_benchmarks": {
+    "new_homes_300_450_sqm": "\u20a613.5M - \u20a631.5M",
+    "bodija_range": "\u20a640M - \u20a6150M",
+    "high_end_4bed_duplex": "\u20a6170M (reference)"
+  },
+  "pricing_formula": "base_rate_per_sqm * area_sqm + bedroom_premium + bathroom_premium + parking_premium",
+  "multipliers": "location * furnishing * condition + quality_bonuses",
+  "noise_bounds": "\u00b110-15% controlled variation",
+  "overall_statistics": {
+    "total_properties": 2000,
+    "outliers_count": 2,
+    "outliers_percentage": 0.1,
+    "price_range": {
+      "min": "\u20a62,400,000",
+      "max": "\u20a6354,300,000",
+      "mean": "\u20a679,745,900",
+      "median": "\u20a653,150,000"
+    }
+  },
+  "neighborhood_statistics": {
+    "Agodi GRA": {
+      "count": 160,
+      "min": "\u20a679,600,000",
+      "percentile_10": "\u20a6121,700,000",
+      "median": "\u20a6187,100,000",
+      "mean": "\u20a6189,984,375",
+      "percentile_90": "\u20a6252,740,000",
+      "max": "\u20a6353,400,000",
+      "tier": "high_end",
+      "expected_range": "\u20a680,000,000 - \u20a6220,000,000"
+    },
+    "Iyaganku GRA": {
+      "count": 160,
+      "min": "\u20a678,800,000",
+      "percentile_10": "\u20a6121,180,000",
+      "median": "\u20a6182,700,000",
+      "mean": "\u20a6192,644,375",
+      "percentile_90": "\u20a6272,700,000",
+      "max": "\u20a6354,300,000",
+      "tier": "high_end",
+      "expected_range": "\u20a670,000,000 - \u20a6200,000,000"
+    },
+    "Jericho": {
+      "count": 200,
+      "min": "\u20a639,800,000",
+      "percentile_10": "\u20a673,770,000",
+      "median": "\u20a6124,600,000",
+      "mean": "\u20a6124,005,000",
+      "percentile_90": "\u20a6177,380,000",
+      "max": "\u20a6247,200,000",
+      "tier": "upper",
+      "expected_range": "\u20a660,000,000 - \u20a6180,000,000"
+    },
+    "Bodija": {
+      "count": 300,
+      "min": "\u20a648,300,000",
+      "percentile_10": "\u20a687,390,000",
+      "median": "\u20a6127,300,000",
+      "mean": "\u20a6129,602,000",
+      "percentile_90": "\u20a6177,840,000",
+      "max": "\u20a6236,200,000",
+      "tier": "upper",
+      "expected_range": "\u20a640,000,000 - \u20a6150,000,000"
+    },
+    "Alalubosa": {
+      "count": 240,
+      "min": "\u20a621,200,000",
+      "percentile_10": "\u20a632,190,000",
+      "median": "\u20a654,600,000",
+      "mean": "\u20a656,783,750",
+      "percentile_90": "\u20a686,430,000",
+      "max": "\u20a6121,800,000",
+      "tier": "mid_upper",
+      "expected_range": "\u20a630,000,000 - \u20a6100,000,000"
+    },
+    "Oluyole Estate": {
+      "count": 300,
+      "min": "\u20a612,600,000",
+      "percentile_10": "\u20a622,590,000",
+      "median": "\u20a638,600,000",
+      "mean": "\u20a640,639,333",
+      "percentile_90": "\u20a661,300,000",
+      "max": "\u20a699,400,000",
+      "tier": "mid",
+      "expected_range": "\u20a625,000,000 - \u20a690,000,000"
+    },
+    "Akobo": {
+      "count": 240,
+      "min": "\u20a64,600,000",
+      "percentile_10": "\u20a68,180,000",
+      "median": "\u20a614,700,000",
+      "mean": "\u20a615,680,417",
+      "percentile_90": "\u20a624,230,000",
+      "max": "\u20a641,000,000",
+      "tier": "mid_low",
+      "expected_range": "\u20a620,000,000 - \u20a670,000,000"
+    },
+    "Samonda": {
+      "count": 200,
+      "min": "\u20a63,700,000",
+      "percentile_10": "\u20a67,290,000",
+      "median": "\u20a614,350,000",
+      "mean": "\u20a615,731,000",
+      "percentile_90": "\u20a625,970,000",
+      "max": "\u20a634,400,000",
+      "tier": "mid_low",
+      "expected_range": "\u20a618,000,000 - \u20a665,000,000"
+    },
+    "Challenge": {
+      "count": 160,
+      "min": "\u20a62,400,000",
+      "percentile_10": "\u20a64,790,000",
+      "median": "\u20a68,800,000",
+      "mean": "\u20a69,387,500",
+      "percentile_90": "\u20a614,640,000",
+      "max": "\u20a623,500,000",
+      "tier": "low",
+      "expected_range": "\u20a610,000,000 - \u20a640,000,000"
+    },
+    "Apete": {
+      "count": 40,
+      "min": "\u20a62,400,000",
+      "percentile_10": "\u20a64,190,000",
+      "median": "\u20a68,300,000",
+      "mean": "\u20a68,955,000",
+      "percentile_90": "\u20a614,710,000",
+      "max": "\u20a615,900,000",
+      "tier": "low",
+      "expected_range": "\u20a66,000,000 - \u20a630,000,000"
+    }
+  },
+  "validation_notes": [
+    "Market benchmark check: 300-450 sqm new homes median \u20a6127,600,000 outside expected \u20a613.5M-\u20a631.5M range",
+    "Bodija price range \u20a648,300,000-\u20a6236,200,000 outside expected \u20a640M-\u20a6150M"
+  ]
+}

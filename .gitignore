@@ -3,6 +3,10 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+LIVE_DEMO_SCRIPT.md
+PRESENTATION_CHEAT_SHEET.md
+PRESENTATION_GUIDE.md
+TECHNICAL_DEEP_DIVE.md
 # C extensions
 *.so
 
