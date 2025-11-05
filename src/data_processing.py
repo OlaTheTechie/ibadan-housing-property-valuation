@@ -55,6 +55,11 @@ def basic_data_info(data):
     print("\n=== basic statistics ===")
     print(data.describe())
 
+    
+    parameters:
+    file_path (str): path to the csv file
+    
+    returns:
 def handle_missing_values(data):
     """
     handle missing values in the dataset using appropriate strategies

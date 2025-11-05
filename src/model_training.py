@@ -121,7 +121,13 @@ def train_linear_regression(X_train, y_train, X_test, y_test):
     return model, train_metrics, test_metrics, cv_metrics
 
 def train_random_forest(X_train, y_train, X_test, y_test):
-    """
+    """oladimeji@ubuntu:~/Desktop/ibadan-house-price-prediction$ conda activate base
+(base) oladimeji@ubuntu:~/Desktop/ibadan-house-price-prediction$ 
+
+
+
+
+
     train random forest model
     
     parameters:

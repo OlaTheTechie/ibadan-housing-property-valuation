@@ -121,7 +121,13 @@ def create_interaction_features(data):
     data_with_interactions['quality_score'] = (
         data_with_interactions['security_rating'] + 
         data_with_interactions['infrastructure_quality']
-    ) / 2
+    ) / 2oladimeji@ubuntu:~/Desktop/ibadan-house-price-prediction$ conda activate base
+(base) oladimeji@ubuntu:~/Desktop/ibadan-house-price-prediction$ 
+
+
+
+
+
     
     # location convenience score
     data_with_interactions['convenience_score'] = (
@@ -154,7 +160,13 @@ def build_feature_transformer(X_train, y_train):
     nominal_features = [feat for feat in categorical_features if feat not in ordinal_mappings]
     
     print(f"ordinal features: {ordinal_features}")
-    print(f"nominal features: {nominal_features}")
+    print(f"nominal features: {nominal_featureoladimeji@ubuntu:~/Desktop/ibadan-house-price-prediction$ conda activate base
+(base) oladimeji@ubuntu:~/Desktop/ibadan-house-price-prediction$ 
+
+
+
+
+s}")
     
     # create transformers
     transformers = []
